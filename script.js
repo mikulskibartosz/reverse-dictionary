@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     async function callOpenAI(apiKey, situationDescription, wordDescription) {
         const findWordsButton = document.getElementById('find-words-button');
         findWordsButton.disabled = true;
-        findWordsButton.textContent = 'Waiting...';
+        findWordsButton.textContent = 'Waiting... (it takes around 20 seconds)';
 
         try {
             const response = await fetch('https://api.openai.com/v1/chat/completions', {
