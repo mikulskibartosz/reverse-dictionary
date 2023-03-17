@@ -74,5 +74,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const currentYear = new Date().getFullYear();
     const copyrightNotice = document.getElementById('copyright-notice');
-    copyrightNotice.innerHTML = `Copyright &copy; ${currentYear} Bartosz Mikulski | This website DOES NOT use cookies. | <a href="https://mikulskibartosz.name/pair-programming-with-ai-building-a-website-with-gpt-4" target="_blank">Read an article about the creation of this page.</a>`;
+    copyrightNotice.innerHTML = `Copyright &copy; ${currentYear} <a href="https://mikulskibartosz.name">Bartosz Mikulski</a> | This website DOES NOT use cookies. | <a href="https://mikulskibartosz.name/pair-programming-with-ai-building-a-website-with-gpt-4" target="_blank">Read an article about the creation of this page.</a>`;
   });
