@@ -20,7 +20,7 @@ body {
 
   input.with-label-on-left {
     display: inline;
-    width: 60%;
+    width: 50%;
     margin-bottom: 20px;
     padding: 10px;
   }
@@ -72,4 +72,10 @@ body {
     padding: 1rem;
     background-color: #f8f9fa;
     border-top: 1px solid #dee2e6;
+  }
+
+  #api-key-link {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    text-decoration: underline;
   }
