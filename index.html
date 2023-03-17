@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-powered Reverse Dictionary - get a word from its description</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI-powered Reverse Dictionary - get a word from its description</h1>
+
+    <form id="word-finder-form">
+      <label for="api-key" class="on-left">OpenAI API Key:</label>
+      <input type="password" id="api-key" name="api-key" class="with-label-on-left" required>
+
+      <label for="situation-description">Situation Description:</label>
+      <textarea type="text" id="situation-description" name="situation-description" class="textarea" required></textarea>
+
+      <label for="word-description">Word Description:</label>
+      <textarea type="text" id="word-description" name="word-description" class="textarea" required></textarea>
+
+      <button type="submit" id="find-words-button">Find the words</button>
+    </form>
+
+    <div id="response-placeholder"></div>
+  </div>
+  <footer id="copyright-notice"></footer>
+  <script src="script.js"></script>
+</body>
+</html>
